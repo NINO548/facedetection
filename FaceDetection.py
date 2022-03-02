@@ -5,7 +5,7 @@ from random import randrange
 trained_face_data = cv2.CascadeClassifier( cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Choose an image to detect faces in 
-img = cv2.imread(r'C:\Users\NINO\Desktop\Python\AI\FaceDetection\Iron Man.jpg')
+img = cv2.imread(r'C:\Users\NINO\Desktop\Python\AI\FaceDetection\ironman.jpg')
 
 
 # Make it black-White( convert grayscale )
