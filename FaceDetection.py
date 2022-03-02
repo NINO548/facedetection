@@ -1,7 +1,7 @@
 import cv2
 from random import randrange
   
-# Load some pre-trained dât on face frontals from opencv ( haar cascade algorithm )
+# Load some pre-trained data on face frontals from opencv ( haar cascade algorithm )
 trained_face_data = cv2.CascadeClassifier( cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Choose an image to detect faces in 
